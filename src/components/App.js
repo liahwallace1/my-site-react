@@ -7,6 +7,12 @@ import {
 import logo from '../logo.svg';
 import './App.css';
 
+// Routes
+import {Home} from '../components/Home';
+import {About} from '../components/About';
+import {Projects} from '../components/Projects';
+import {NotFound} from '../components/NotFound';
+
 class App extends Component {
   render() {
     return (
