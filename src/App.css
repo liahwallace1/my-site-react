@@ -10,7 +10,14 @@ html {
   bottom: 0;
   height: 60px;
   width: 100%;
-  overflow:hidden;
+  overflow: hidden;
+}
+
+.navlink {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
 }
 
 .App {

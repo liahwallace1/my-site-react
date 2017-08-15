@@ -3,13 +3,14 @@ import { NavLink, Link } from 'react-router-dom';
 
 const Navbar = () =>
   <div className="navbar navbar-default">
-    <NavLink className="navlink" activeClassName="activeNavlink" exact to='/'>Home</NavLink>
 
-    <NavLink className="navlink" activeClassName="activeNavlink" exact to='/about'>About</NavLink>
+      <NavLink className="navlink" activeClassName="activeNavlink" exact to='/'>HOME</NavLink>
 
-    <NavLink className="navlink" activeClassName="activeNavlink" exact to='/projects'>Projects</NavLink>
+      <NavLink className="navlink" activeClassName="activeNavlink" exact to='/about'>ABOUT</NavLink>
 
-    <a className="navlink" href='//www.liahdwallace.com' target='_blank'>Blog</a>
+      <NavLink className="navlink" activeClassName="activeNavlink" exact to='/projects'>PROJECTS</NavLink>
+
+      <a className="navlink" href='//www.liahdwallace.com' target='_blank'>BLOG</a>
 
   </div>
 
