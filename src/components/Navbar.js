@@ -10,6 +10,8 @@ const Navbar = () =>
 
       <NavLink className="navlink" activeClassName="activeNavlink" exact to='/projects'>PROJECTS</NavLink>
 
+      <NavLink className="navlink" activeClassName="activeNavlink" exact to='/contact'>CONTACT</NavLink>
+
       <a className="navlink" href='//www.liahdwallace.com' target='_blank'>BLOG</a>
 
   </div>
