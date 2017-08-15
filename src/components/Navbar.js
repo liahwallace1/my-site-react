@@ -9,7 +9,7 @@ const Navbar = () =>
 
     <NavLink className="navlink" activeClassName="activeNavlink" exact to='/projects'>Projects</NavLink>
 
-    <Link className="navlink" to='www.liahdwallace.com' target='_blank'>Blog</Link>
+    <a className="navlink" href='//www.liahdwallace.com' target='_blank'>Blog</a>
 
   </div>
 
